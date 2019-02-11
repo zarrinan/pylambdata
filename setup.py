@@ -12,7 +12,7 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name = "pylambdata_zarrina",
     version="0.0.1",
-    author="Zarrina",
+    author="zeecode",
     description = "A collection of Data Science helper functions",
     long_description = LONG_DESCRIPTION,
     long_description_content_type="text/markdown",
