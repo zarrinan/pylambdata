@@ -2,19 +2,19 @@
 import setuptools
 
 REQUIRED = [
-"numpy",
-"pandas"
+    "numpy",
+    "pandas"
 ]
 
 with open("README.md", "r") as fh:
     LONG_DESCRIPTION = fh.read()
 
 setuptools.setup(
-    name = "pylambdata_zarrina",
+    name="pylambdata_zarrina",
     version="0.0.1",
     author="zeecode",
-    description = "A collection of Data Science helper functions",
-    long_description = LONG_DESCRIPTION,
+    description="A collection of Data Science helper functions",
+    long_description=LONG_DESCRIPTION,
     long_description_content_type="text/markdown",
     url="https://github.com/zarrinan/pylambdata",
     packages=setuptools.find_packages(),
